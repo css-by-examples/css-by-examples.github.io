@@ -1,0 +1,23 @@
+title: "CSS by examples"
+baseurl: ""
+url: "https://css-by-examples.com"
+
+social_links:
+  github: "css-by-examples"
+
+# Build settings
+markdown: kramdown
+
+autoprefixer:
+  browsers:
+    - last 2 versions
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-autoprefixer
+  - jekyll-seo-tag
+
