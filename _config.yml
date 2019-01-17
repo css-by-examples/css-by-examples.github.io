@@ -26,3 +26,5 @@ plugins:
 collections:
   positioning:
     output: true
+  examples:
+    output: true
