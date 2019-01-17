@@ -23,3 +23,6 @@ plugins:
   - jekyll-autoprefixer
   - jekyll-seo-tag
 
+collections:
+  positioning:
+    output: true
