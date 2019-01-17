@@ -2,6 +2,8 @@
 layout: default
 title: Strona testowa 3
 description: Krótki opis wyświetlany na stronie głównej Vestibulum dapibus massa id neque euismod lobortis. Ut ac neque tempor, feugiat elit fermentum, fermentum odio. Duis vel lobortis felis. Donec non lorem turpis.
+short_example_dom: ''
+short_example_scss: ''
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at tristique erat. In a tellus at nisi aliquam laoreet et et enim. Curabitur in quam interdum, mollis justo et, faucibus elit. Proin ullamcorper nisl tortor, ut ultricies felis posuere nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris at rhoncus mauris, quis laoreet felis. Sed egestas leo dolor, nec gravida nulla commodo id.
 

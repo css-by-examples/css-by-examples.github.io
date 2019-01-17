@@ -2,6 +2,8 @@
 layout: default
 title: Strona testowa 1
 description: Krótki opis wyświetlany na stronie głównej Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at tristique erat. In a tellus at nisi aliquam laoreet et et enim. Curabitur in quam interdum
+short_example_dom: ''
+short_example_scss: ''
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at tristique erat. In a tellus at nisi aliquam laoreet et et enim. Curabitur in quam interdum, mollis justo et, faucibus elit. Proin ullamcorper nisl tortor, ut ultricies felis posuere nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris at rhoncus mauris, quis laoreet felis. Sed egestas leo dolor, nec gravida nulla commodo id.
 

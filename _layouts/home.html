@@ -6,17 +6,19 @@ layout: default
     {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
-
-    {{ content }}
-    <div class="content">
+    <div class="table-of-contents">
         {% for collection in site.collections %}
         {% assign name = collection.label %}
         <section>
 
-            {% for page in site.[collection.label] %}
-            <article>
-                <div></div>
-                <div><a href="{{page.url}}">{{page.title}}</a></div>
+            {% for page in site.[name] %}
+            <style>{{ page.short_example_scss | scssify }}</style>
+            <article onclick="window.location.href='{{page.url}}';">
+                <div class="short-example">{{ page.short_example_dom }}</div>
+                <div class="article-header">
+                    <div class="article-title">{{page.title}}</div>
+                    <div class="article-desciption">{{page.description}}</div>
+                </div>
             </article>
             {% endfor %}
 

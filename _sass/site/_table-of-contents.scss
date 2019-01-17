@@ -1,0 +1,39 @@
+.table-of-contents {
+
+  $example-size: 60px;
+  $header-height: 60px;
+
+  article {
+    width: 100%;
+    min-height: $header-height;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #eee;
+    }
+  }
+
+  .short-example {
+    min-width: $example-size;
+    min-height: $example-size;
+    max-width: $example-size;
+    max-height: $example-size;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+  }
+
+  .article-header {
+    padding-left: 10px;
+  }
+  .article-title {
+
+  }
+  .article-desciption {
+    color: #767676;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
