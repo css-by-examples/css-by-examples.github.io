@@ -1,0 +1,8 @@
+---
+layout: page
+---
+
+{% for example in site.examples %}
+<h2><a href="{{ example.url }}">{{ example.title }}</a></h2>
+<p>{{ example.description | markdownify }}</p>
+{% endfor %}
